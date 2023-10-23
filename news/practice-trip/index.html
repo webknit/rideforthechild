@@ -1,0 +1,593 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en-US"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+
+<head>
+
+  	<meta charset="UTF-8" />
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="pingback" href="http://rideforthechild.co.uk/xmlrpc.php" />
+
+	<link rel="dns-prefetch" href="http://ajax.googleapis.com">
+	<link rel="dns-prefetch" href="http://use.typekit.net">
+	<link rel="dns-prefetch" href="http://google-analytics.com">
+	
+	<title>Practice Trip | Ride For The Child</title>
+	<meta name="description" content="Cycling from San Fran to New York, 3200 miles, 28 days, 1st September 2016. Raising money for children with deafness or cancer.">
+	<meta name="keywords" content="Ride for the child, RFTC, charity bike ride, fundraising, deaf children fundraising, cancer children fundraising">
+	<meta name="author" content="Webknit">
+	
+	<!-- Initialise advanced UI (Javascrip enabled) -->
+	<script>document.documentElement.className += ' advanced';</script>
+	
+	<!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- favicon and apple-touch-icon.png. More info @ mathiasbynens.be/notes/touch-icons -->
+	<!--<link rel="shortcut icon" href="PATH/TO/favicon.png" />-->
+	
+	<!-- Single CSS stylesheet with multiple break points - one for the CSS styles of each module where multiple screen sizes need to be addressed.  -->
+	<link rel="stylesheet" href="../../wp-content/themes/RFTC/css/style.css" media="screen">
+	
+	<!--Internet Explorer up to version 8.0 can't read HTML5 tags properly, you can't style them.-->
+	<!--[if lt IE 9]>
+	   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-26260989-25', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	
+	<link rel='dns-prefetch' href='http://s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ride For The Child &raquo; Feed" href="../../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Ride For The Child &raquo; Comments Feed" href="../../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Ride For The Child &raquo; Practice Trip Comments Feed" href="feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/rideforthechild.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.11"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='../../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc.php-rsd.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='3 months to go' href='../3-months-to-go/index.html' />
+<link rel='next' title='2 months to go' href='../2-months-to-go/index.html' />
+<meta name="generator" content="WordPress 4.7.11" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed-url=http_%7C%7Crideforthechild.co.uk%7Cnews%7Cpractice-trip%7C.json" />
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed-url=http_%7C%7Crideforthechild.co.uk%7Cnews%7Cpractice-trip%7C&format=xml.xml" />
+	
+</head>
+
+<body class="post-template-default single single-post postid-889 single-format-standard">
+
+	<div class="flag-bar"></div>
+  
+	<header class="main-header row">
+	
+		<div class="container">
+
+					
+			<a href="../../index.html"><img src="../../wp-content/themes/RFTC/img/logo.svg" class="main-header__logo" /></a>
+			
+			
+						
+
+			<nav class="main-header__nav">
+			
+				<div class="menu-main_menu-container">
+
+					<ul class="main-header__nav-ul">
+
+						<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="../../about-the-ride/index.html">
+								<span class="letter letter--red">A</span><span class="letter letter--blue">b</span><span class="letter letter--red">o</span><span class="letter letter--blue">u</span><span class="letter letter--red">t</span> <span class="letter letter--blue">R</span><span class="letter letter--red">F</span><span class="letter letter--blue">T</span><span class="letter letter--red">C</span>
+							</a></li></span>
+						<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="../../the-story/index.html">
+							<span class="letter letter--blue">T</span><span class="letter letter--red">h</span><span class="letter letter--blue">e</span> <span class="letter letter--red">S</span><span class="letter letter--blue">t</span><span class="letter letter--red">o</span><span class="letter letter--blue">r</span><span class="letter letter--red">y</span>
+						</a></li>
+						<li id="menu-item-17" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17"><a href="../../category/news/index.html">
+							<span class="letter letter--blue">N</span><span class="letter letter--red">e</span><span class="letter letter--blue">w</span><span class="letter letter--red">s</span>
+						</a></li>
+						<li id="menu-item-17" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17"><a href="../../route/index.html">
+							<span class="letter letter--blue">R</span><span class="letter letter--red">o</span><span class="letter letter--blue">u</span><span class="letter letter--red">t</span><span class="letter letter--blue">e</span>
+						</a></li>
+						<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="../../charities/index.html">
+							<span class="letter letter--blue">C</span></span><span class="letter letter--red">h</span><span class="letter letter--blue">a</span><span class="letter letter--red">r</span><span class="letter letter--blue">i</span><span class="letter letter--red">t</span><span class="letter letter--blue">i</span><span class="letter letter--red">e</span><span class="letter letter--blue">s</span>
+						</a></li>
+					
+					</ul>
+
+				</div>
+
+			</nav>
+			
+			<a href="http://uk.virginmoneygiving.com/fundraiser-web/fundraiser/showFundraiserPage.action?userUrl=rideforthechild&faId=614985&isTeam=false" target="_blank" class="main-header__donate btn btn--red">Donate</a>
+			
+			<button class="main-header__nav-btn">
+			
+				<span class="main-header__nav-btn-line main-header__nav-btn-line--one"></span>
+				<span class="main-header__nav-btn-line main-header__nav-btn-line--two"></span>
+				<span class="main-header__nav-btn-line main-header__nav-btn-line--three"></span>
+			
+			</button><!-- .main-header__nav-btn -->
+		
+		</div><!-- .container -->
+	
+	</header><!-- .main-header -->	
+	
+		
+	<div class="banner banner--bg-img banner--skyline-img" style="background-image: url('../../wp-content/uploads/2016/06/pracitc.jpg' ) !important;">
+
+		<h2 class="banner__center-header">Practice Trip</h2>
+	
+	</div><!-- .banner -->
+	
+	<section class="main-body main-body--page">
+	
+		<div class="container row">
+
+			<div class="two_twelve main-body__side-info">
+
+				<!-- <h2 class="main-body__title">Practice Trip</h2> -->
+
+				<p class="main-body__date">June 29, 2016</p>
+
+				<ul class="category__tags">
+					<li class="category__tags-item"><a href="../../tag/training/index.html">Training</a></li> 	
+				</ul>
+
+			</div><!-- .two__twelve -->
+			
+			<div class="seven_twelve main-body__content">
+				
+				<p>Last weekend myself and Robert, my main support person in America, went on a little trip in order to experience a few days on the road and also to identify any issues that might arise.</p>
+<p>The ride was a 2-day 260 mile, relatively hilly, route which started and finished in Scarborough, with Sedbergh being the midpoint.</p>
+<div id="attachment_910" style="width: 1010px" class="wp-caption alignnone"><img class="lazy lazy-hidden wp-image-910 size-medium" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="../../wp-content/uploads/2016/06/Screen-Shot-2016-06-28-at-21.15.59-1000x495.jpg" alt="260 mile practice route" width="1000" height="495" data-lazy-srcset="http://rideforthechild.co.uk/wp-content/uploads/2016/06/Screen-Shot-2016-06-28-at-21.15.59-1000x495.jpg 1000w, http://rideforthechild.co.uk/wp-content/uploads/2016/06/Screen-Shot-2016-06-28-at-21.15.59-1500x743.jpg 1500w" sizes="(max-width: 1000px) 100vw, 1000px" /><noscript><img class="wp-image-910 size-medium" src="../../wp-content/uploads/2016/06/Screen-Shot-2016-06-28-at-21.15.59-1000x495.jpg" alt="260 mile practice route" width="1000" height="495" srcset="http://rideforthechild.co.uk/wp-content/uploads/2016/06/Screen-Shot-2016-06-28-at-21.15.59-1000x495.jpg 1000w, http://rideforthechild.co.uk/wp-content/uploads/2016/06/Screen-Shot-2016-06-28-at-21.15.59-1500x743.jpg 1500w" sizes="(max-width: 1000px) 100vw, 1000px" /></noscript><p class="wp-caption-text">260 mile practice route</p></div>
+<p>We were up early Saturday morning at around 5am, I had forced myself to get up at 5am each day that week so my body was adjusted and I felt decent. Rob said he felt ok too but his eyes told me differently, he said it was the hay fever. We got a few photos then I set out towards Whitby, Rob planned to shower and ensure he had everything before setting off within the hour.</p>
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 658px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-version="7">
+<div style="padding: 8px;">
+<div style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 50.0% 0; text-align: center; width: 100%;"></div>
+<p style="margin: 8px 0 0 0; padding: 0 4px;"><a style="color: #000; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none; word-wrap: break-word;" href="https://www.instagram.com/p/BHEKSdkBU0P/" target="_blank">Just heading out from Scarborough to Sedbergh. 140 miles to go!</a></p>
+<p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">A photo posted by Shane Prendergast (@rideforthechild) on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2016-06-25T05:02:52+00:00">Jun 24, 2016 at 10:02pm PDT</time></p>
+</div>
+</blockquote>
+<p><script src="http://platform.instagram.com/en_US/embeds.js" async="" defer="defer"></script></p>
+<p>&nbsp;</p>
+<p>The first 40 miles up the East coast towards Whitby were really hilly and it wasn&#8217;t the best warm up. Rob caught me at the 20 mile mark and gave me some food and water (fuel). It was a great feeling having someone out on the road with me, it can get lonely constantly cycling 100 miles and it takes some worries off my mind (mechanics, food, safety).</p>
+<blockquote><p>&#8220;It was a great feeling having someone out on the road with me, it can get lonely constantly cycling 100 miles and it takes some worries off my mind&#8221;</p></blockquote>
+<p>I like to stop at the halfway point and get some proper grub down me, so the first challenge was to find somewhere suitable to eat (I should probably add that we were in a small hatchback, in America we will have an RV so can cook etc). We originally planned to stop at Guisborough but I was feeling good and at 45 miles, it was too early for me. I said I wanted to go nearer the 65 mile mark. We stopped at a couple more points along the route refueling, but then we had our first problem&#8230;..</p>
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 658px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-version="7">
+<div style="padding: 8px;">
+<div style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 50.0% 0; text-align: center; width: 100%;"></div>
+<p><a style="color: #000; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none; word-wrap: break-word;" href="https://www.instagram.com/p/BHE2F4Wh6U0/" target="_blank">#rideforthechild Team vehicle. Practice day one going decent. 40 miles left but they&#8217;re hilly!</a> A photo posted by Shane Prendergast (@rideforthechild) on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2016-06-25T11:25:38+00:00">Jun 25, 2016 at 4:25am PDT</time></p>
+</div>
+</blockquote>
+<p>&nbsp;</p>
+<p>With them behind me, I stopped to go to the toilet behind a bush but as soon as I had started I seen the Corsa shoot past! I got back on the bike and instantly knew that we might have an issue as he thought I was in front and, with him following the same roads, he wouldn&#8217;t stop until he reached me. In the end we had to resort to text, he said there was no way I could have come this far and I informed him I was behind, and to wait while I catch up.</p>
+<div id="attachment_895" style="width: 1010px" class="wp-caption alignnone"><img class="lazy lazy-hidden wp-image-895 size-medium" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="../../wp-content/uploads/2016/06/climbing-1000x664.jpg" alt="Yorkshire Dales" width="1000" height="664" data-lazy-srcset="http://rideforthechild.co.uk/wp-content/uploads/2016/06/climbing-1000x664.jpg 1000w, http://rideforthechild.co.uk/wp-content/uploads/2016/06/climbing.jpg 1200w" sizes="(max-width: 1000px) 100vw, 1000px" /><noscript><img class="wp-image-895 size-medium" src="../../wp-content/uploads/2016/06/climbing-1000x664.jpg" alt="Yorkshire Dales" width="1000" height="664" srcset="http://rideforthechild.co.uk/wp-content/uploads/2016/06/climbing-1000x664.jpg 1000w, http://rideforthechild.co.uk/wp-content/uploads/2016/06/climbing.jpg 1200w" sizes="(max-width: 1000px) 100vw, 1000px" /></noscript><p class="wp-caption-text">Yorkshire Dales</p></div>
+<p>&nbsp;</p>
+<p>When I caught up we had passed Guisborough and I was getting a bit hungry. I said to Rob to shoot ahead and find somewhere to eat and then wait for me by the road. The problem was there was nothing for another 30 miles, thankfully Rob was on the ball and I had plenty of snacks to keep me going. Things will be easier with the RV but I guess this taught us to plan ahead and study the route and services available along the way, be it for fuel, supplies, water etc.</p>
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 658px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-version="7">
+<div style="padding: 8px;">
+<div style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 50.0% 0; text-align: center; width: 100%;"></div>
+<p style="margin: 8px 0 0 0; padding: 0 4px;"><a style="color: #000; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none; word-wrap: break-word;" href="https://www.instagram.com/p/BHNH7HTBODE/" target="_blank">Last section of Buttertubs Pass. Tough climb!</a></p>
+<p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">A video posted by Shane Prendergast (@rideforthechild) on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2016-06-28T16:35:22+00:00">Jun 28, 2016 at 9:35am PDT</time></p>
+</div>
+</blockquote>
+<p>&nbsp;</p>
+<p>Next we headed through the Yorkshire Dales and Rob got to experience some ascents and descents. I knew there was a big climb coming up but I didn&#8217;t think it would be quite as steep as it was. It was called Buttertubs Pass, just over a mile long with some significant parts at 25%. We shot down the other side reaching speeds of 40mph and then agreed Rob should go ahead to find the hotel room at Sedbergh. I had a 15 mile descent into the town and it was a good job as my legs were feeling it after that climb. I made a mental note that I would have to start tomorrow with a long climb!</p>
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 658px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-version="7">
+<div style="padding: 8px;">
+<div style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 50.0% 0; text-align: center; width: 100%;"></div>
+<p><a style="color: #000; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none; word-wrap: break-word;" href="https://www.instagram.com/p/BHFTvM1BmAW/" target="_blank">Arrived at Sedbergh and just done his warm down. 125miles today so a bit shorter than expected! #robsupport</a> A photo posted by Shane Prendergast (@rideforthechild) on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2016-06-25T15:44:41+00:00">Jun 25, 2016 at 8:44am PDT</time></p>
+</div>
+</blockquote>
+<p>&nbsp;</p>
+<p>We watched the football, ate and had a couple of beers before an early night, I felt decent but I&#8217;m not too sure about Rob. He was tired and we agreed that I would get up and go at 5am and he would sleep a little more and catch me at around the 40mile mark. I guess when we&#8217;re in America our bodies will soon get used to the routines.</p>
+<p>I set out at 5-30am and I was a little fatigued, the 15 mile climb was an even worse warm up than yesterday! I was thankful to see the back of the Yorkshire Dales, they&#8217;re really beautiful but also torturous roads for knackered cyclists.</p>
+<p>Although I didn&#8217;t know exactly where it was, I knew I had one big climb this day, it wasn&#8217;t as big as yesterday it was still a decent size. It wasn&#8217;t until around 40 miles that I had a phone signal and found out that Rob was up and just behind me. I doubt we will be able to use mobile phones in this manner in America so it&#8217;s important we have a plan in place, with Rob stopping at intervals and me passing so that we always know where we both should be.</p>
+<p>I passed through Masham and I had a very pleasant surprise when I was passed by swarms of riders. I had found myself in the middle of <a href="http://www.ukcyclingevents.co.uk/events/cycling-weekly-ripon-revolution-sportive/" target="_blank">The Ripon Revolution</a>, a sportive with 100&#8217;s of riders. This was great for a few reasons, it takes your mind off things and I could slip behind riders into their slipstream, ultimately using less energy. Not long after Rob caught up with me, gave me some fuel and we agreed to meet in the next town for lunch which was 12 miles &#8211; 45 mins or so &#8211; away. However we had forgotten one small detail, the whereabouts of this next climb.</p>
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 658px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-version="7">
+<div style="padding: 8px;">
+<div style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 50.0% 0; text-align: center; width: 100%;"></div>
+<p style="margin: 8px 0 0 0; padding: 0 4px;"><a style="color: #000; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none; word-wrap: break-word;" href="https://www.instagram.com/p/BHHvGijBEVI/" target="_blank">Some whopping climbs after masham! #rideforthechild</a></p>
+<p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">A photo posted by Shane Prendergast (@rideforthechild) on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2016-06-26T14:22:16+00:00">Jun 26, 2016 at 7:22am PDT</time></p>
+</div>
+</blockquote>
+<p>&nbsp;</p>
+<p>It turns out the climb was literally 3 miles after Rob had left and it was a bloody long one! Pott Bank to the summit of Trapping hill was perhaps 5 miles long and it was tough climbing. Having eaten my remaining banana I was running on empty towards the end and unfortunately Rob had gone up the hills without thinking and headed straight to the next town. I was really struggling with the last 6 miles to the meet point, so much that I asked a rider would he slow down a notch so that I could slip behind him and conserve some energy. He very kindly obliged and even gave me half a banana, thank you if you ever read this! I guess in hindsight I should have told Rob how much climbs drain energy and I had been lax not carrying enough supplies. We agreed that in the future Rob would wait at the top and bottom of every climb to check that everything was ok.</p>
+<blockquote><p>&#8220;In hindsight I should have told Rob how much climbs drain energy&#8221;</p></blockquote>
+<p>The remaining 60 mile was relative straightforward, a few smaller climbs and then a flat 50 mile past York and finally onto the dual carriageway to Scarborough (seems a bit mental how I now class 60 miles as &#8220;relatively straightforward&#8221;). We had a few more fuel stops and then I told Rob to head back home with 22 miles remaining.</p>
+<p>I think Rob enjoyed it but it was always going to be a little bit boring spending 8 hours in a small hatchback. When he&#8217;s got the RV &#8211; and of course in America &#8211; he will be a lot more occupied. I guess he now has a good understanding of what it will be like and we identified some issues which can easily be resolved.</p>
+<p>It has to be said that the RV support role shouldn&#8217;t be underestimated, it&#8217;s a massive job and Rob did great. I&#8217;m massively thankful for him sacrificing his life to make this trip work and I can&#8217;t wait for our adventures! Thanks Rob!</p>
+<p>Overall it was a good trip. From a cycling perspective they were two tough rides, 125mile/8200ft and 132mile/7000ft, I managed good speeds and, most importantly, my legs felt decent. As I previously mentioned I had got up early throughout the week to prepare myself for this weekend but it&#8217;s tough with work etc and I was really, really sleepy by Sunday &#8211; I guess I won&#8217;t have this issue in America.</p>
+<p><strong>Getting excited now &#8211; EIGHT weeks to go!!!!!</strong></p>
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 658px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-version="7">
+<div style="padding: 8px;">
+<div style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 50.0% 0; text-align: center; width: 100%;"></div>
+<p><a style="color: #000; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none; word-wrap: break-word;" href="https://www.instagram.com/p/BHH7mqHB4wj/" target="_blank">Practice weekend complete. A hilly 257 miles later we have arrived back in Scarborough. Blog post to follow. #rideforthechild</a> A photo posted by Shane Prendergast (@rideforthechild) on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2016-06-26T16:11:31+00:00">Jun 26, 2016 at 9:11am PDT</time></p>
+</div>
+</blockquote>
+			
+
+				
+				<ul class="pagination">
+			
+					<li class="pagination__item pagination__item--prev">
+						<span class="fa fa-arrow-circle-left"></span> <a href="../2-months-to-go/index.html" rel="next">2 months to go</a>					</li>
+					<li class="pagination__item pagination__item--next">
+						<a href="../3-months-to-go/index.html" rel="prev">3 months to go</a> <span class="fa fa-arrow-circle-right"></span>					</li>
+					
+				</ul>
+
+			</div><!-- eight_twelve -->
+			
+			
+<sidebar class="three_twelve end-grid sidebar">
+
+	<h3 class="sidebar__title">Share this</h3>
+	
+	<ul class="sidebar__ul">
+
+		<li class="sidebar__li"><a target="_blank" href="http://twitter.com/home/?status=Ride%20For%20The%20Child%20-%20Practice%20Trip%20-%20http://rideforthechild.co.uk/news/practice-trip/%20-%20@rideforthechild" class="sidebar__a"><span class="fa fa-twitter"></span>Twitter</a></li>
+
+		<script>function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436'); return false;}</script>
+
+		<li class="sidebar__li"><a target="_blank" rel="nofollow" href="http://www.facebook.com/share.php?u=%3C;url%3E" onclick="return fbs_click()" class="sidebar__a"><span class="fa fa-facebook"></span>Facebook</a></li>
+		
+	</ul>
+			
+	<h3 class="sidebar__title">Recent posts</h3>
+
+	
+	<ul class="sidebar__ul">
+
+	
+		<li class="sidebar__li"><a href="../final-words/index.html" title="Final words" class="footer__a">Final words</a></li>
+
+	
+		<li class="sidebar__li"><a href="../day-28/index.html" title="Day 28 &#8211; The finish" class="footer__a">Day 28 &#8211; The finish</a></li>
+
+	
+		<li class="sidebar__li"><a href="../day-27-nyc-tomo/index.html" title="Day 27 &#8211; NYC tomo" class="footer__a">Day 27 &#8211; NYC tomo</a></li>
+
+	
+		<li class="sidebar__li"><a href="../day-26/index.html" title="Day 26" class="footer__a">Day 26</a></li>
+
+	
+		<li class="sidebar__li"><a href="../day-24-25/index.html" title="Day 24 &#038; 25" class="footer__a">Day 24 &#038; 25</a></li>
+
+	
+		<li class="sidebar__li"><a href="../day-23/index.html" title="Day 23" class="footer__a">Day 23</a></li>
+
+	
+		<li class="sidebar__li"><a href="../day-21-q-a/index.html" title="Day 21 &#8211; Q &#038; A" class="footer__a">Day 21 &#8211; Q &#038; A</a></li>
+
+	
+		<li class="sidebar__li"><a href="../day-20/index.html" title="Day 20" class="footer__a">Day 20</a></li>
+
+	
+	</ul>
+
+		
+	<!-- <h3 class="sidebar__title">categories</h3>
+	
+	<ul class="sidebar__ul">
+	
+		<li class="sidebar__li"><a class="sidebar__a">Diary</a></li>
+		<li class="sidebar__li"><a class="sidebar__a">Charity</a></li>
+		<li class="sidebar__li"><a class="sidebar__a">news</a></li>
+		
+	</ul> -->
+
+</siderbar><!-- four_twelve -->		
+		</div><!-- .container -->
+	
+	</section><!-- .main-body -->
+
+	
+<section class="more-info">
+
+	<div class="container row">
+
+		<a href="../../sponsorship/index.html" class="more-info__a">
+
+			<div class="more-info__item more-info__item--first">
+
+				<img src="../../wp-content/themes/RFTC/img/img-square-sponsor.jpg" class="more-info__img" />
+
+				<h2 class="more-info__head">Sponsorship</h2>
+
+			</div><!-- .more-info__item -->
+
+		</a><!-- .more-info__a -->
+
+		<a href="../../charities/index.html" class="more-info__a">
+
+			<div class="more-info__item more-info__item--red-hover">
+
+				<img src="../../wp-content/themes/RFTC/img/img-square-charity.jpg" class="more-info__img" />
+
+				<h2 class="more-info__head">Charities</h2>
+
+			</div><!-- .more-info__item -->
+
+		</a><!-- .more-info__a -->
+
+		<a href="../../the-story/index.html" class="more-info__a">
+
+			<div class="more-info__item">
+
+				<img src="../../wp-content/themes/RFTC/img/img-square-story.jpg" class="more-info__img" />
+
+				<h2 class="more-info__head">The story</h2>
+
+				<!-- <p class="more-info__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+
+			</div><!-- .more-info__item -->
+
+		</a><!-- .more-info__a -->
+
+		<a href="../../about-the-ride/index.html" class="more-info__a">
+
+			<div class="more-info__item more-info__item--red-hover">
+
+				<img src="../../wp-content/themes/RFTC/img/img-square-ride.jpg" class="more-info__img" />
+
+				<h2 class="more-info__head">The ride</h2>
+
+			</div><!-- .more-info__item -->
+
+		</a><!-- .more-info__a -->
+
+	</div><!-- .container -->
+
+</section><!-- .more-info -->
+
+	
+<div class="sponsors">
+
+	<div class="container row">
+
+		<!-- <h2 class="sponsors__title center-align">Sponsors</h2> -->
+
+		<ul class="sponsors__list">
+
+			<li class="sponsors__item">
+
+				<a href="http://azolt.com/">
+
+					<img src="../../wp-content/themes/RFTC/img/azolt.svg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="http://homebuilderscarborough.co.uk/">
+
+					<img src="../../wp-content/themes/RFTC/img/homebuilder.svg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="http://volero.com.au/">
+
+					<img src="../../wp-content/themes/RFTC/img/volero.jpg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="http://www.onlinecyclecoaching.com/">
+
+					<img src="../../wp-content/themes/RFTC/img/sponsor-transition.svg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="http://www.roadbearrv.com/">
+
+					<img src="../../wp-content/themes/RFTC/img/sponsor-roadbear.jpg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="https://paulbryceclothing.teemill.co.uk/">
+
+					<img src="../../wp-content/themes/RFTC/img/sponsor-paul.jpg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+		
+		</ul><!-- .sponsors__list -->
+
+	</div><!-- .row -->
+
+</div><!-- .announcement -->
+	
+<div class="announcement announcement--strava">
+
+	<div class="container row">
+
+		<a target="_blank" href="http://www.strava.com/athletes/2909982" class="announcement__link">Follow Shane Prendergast</a>
+
+		<img src="../../wp-content/themes/RFTC/img/strava.svg" class="announcement__img" />
+
+	</div><!-- .row -->
+
+</div><!-- .announcement -->
+	<section class="help">
+	
+		<div class="container row">
+		
+			<div class="seven_twelve">
+			
+				<h2 class="help__header">Help me help them.</h2>
+				
+				<p class="help__p">I want to raise as much money and awareness as possible and I can't do that without your donations and help. Any amount - large or small - will contribute to helping children with deafness or cancer. Feel free to share, follow, tweet and please tell your friends and family about Ride For The Child. Whatever you can afford, it’s a small price to pay to improve these children’s lives.</p>
+				
+				<p></p><a href="http://uk.virginmoneygiving.com/fundraiser-web/fundraiser/showFundraiserPage.action?userUrl=rideforthechild&faId=614985&isTeam=false" target="_blank" class="btn btn--red">Donate</a></p>
+			
+			</div><!-- .seven_twelve -->
+			
+			<div class="five_twelve end-grid help__links">
+			
+				<ul class="help__ul">
+				
+					<li class="help__li"><a href="https://www.facebook.com/rideforthechild" target="_blank" class="help__a"><span class="fa fa-facebook"></span>Follow the journey on Facebook</a></li>
+					<li class="help__li"><a href="https://twitter.com/rideforthechild" target="_blank" class="help__a"><span class="fa fa-twitter"></span>Follow the journey on Twitter</a></li>
+					<li class="help__li"><a href="https://instagram.com/rideforthechild/" target="_blank" class="help__a"><span class="fa fa-instagram"></span>View the photos on Instragram</a></li>
+					<li class="help__li"><a href="https://www.youtube.com/channel/UCYb9XlAkPrv1vzG6xVLqniA" taget="_blank" class="help__a"><span class="fa fa-youtube"></span>View the videos</a></li>
+					<li class="help__li"><a href="../index.html" class="help__a"><span class="fa fa-pencil"></span>Read the blog</a></li>
+				
+				</ul>
+			
+			</div><!-- .four_twelve -->
+		
+		</div><!-- .container -->
+		
+		<div class="triangle">
+			
+			<span class="triangle__item"></span>
+			<span class="triangle__item triangle__item--white"></span>
+			<span class="triangle__item triangle__item--red"></span>
+			
+		</div><!-- .triangle -->
+	
+	</section><!-- .help -->
+	
+	<footer class="footer">
+	
+		<div class="container row">
+		
+			<div class="three_twelve">
+			
+				<h2 class="footer__header">Information</h2>
+
+				<p><a href="../../faqs/index.html">FAQ's</a></p>
+
+				<p>If you’ve any questions, suggestions, queries, ideas, donations or just want to have a chat I can be contacted on the following email</p>
+				
+				<p><a>contact@rideforthechild.co.uk</a></p>
+			
+			</div><!-- .three_twelve -->
+			
+			<div class="three_twelve">
+			
+				<h2 class="footer__header">Recent posts</h2>
+
+				
+				
+					<p><a href="../final-words/index.html" title="Final words" class="footer__a">Final words</a></p>
+
+				
+					<p><a href="../day-28/index.html" title="Day 28 &#8211; The finish" class="footer__a">Day 28 &#8211; The finish</a></p>
+
+				
+					<p><a href="../day-27-nyc-tomo/index.html" title="Day 27 &#8211; NYC tomo" class="footer__a">Day 27 &#8211; NYC tomo</a></p>
+
+				
+					<p><a href="../day-26/index.html" title="Day 26" class="footer__a">Day 26</a></p>
+
+				
+					<p><a href="../day-24-25/index.html" title="Day 24 &#038; 25" class="footer__a">Day 24 &#038; 25</a></p>
+
+				
+							
+			</div><!-- .three_twelve -->
+			
+			<div class="three_twelve">
+			
+				<h2 class="footer__header">Social Links</h2>
+
+				<p><span class="fa fa-facebook"></span><a href="https://www.facebook.com/rideforthechild" target="_blank">Facebook</a></p>
+				
+				<p><span class="fa fa-twitter"></span><a href="https://twitter.com/rideforthechild" target="_blank">Twitter</a></p>
+
+				<p><span class="fa fa-instagram"></span><a href="https://instagram.com/rideforthechild/" target="_blank">Instagram</a></p>
+
+				<p><span class="fa fa-youtube"></span><a href="https://www.youtube.com/channel/UCYb9XlAkPrv1vzG6xVLqniA" target="_blank">You Tube</a></p>
+			
+			</div><!-- .three_twelve -->
+			
+			<div class="three_twelve end-grid">
+
+				<div class="rotate-logo">
+
+					<span class="rotate-logo__inner"></span>
+					<span class="rotate-logo__outer"></span>
+
+				</div><!-- .rotate-logo -->
+
+				<img src="../../wp-content/themes/RFTC/img/clic.jpg" class="footer__charity-logo" />
+				<img src="../../wp-content/themes/RFTC/img/AHL.jpg" class="footer__charity-logo" />
+			
+			</div><!-- .three_twelve -->
+		
+		</div><!-- .container -->
+	
+	</footer><!-- .footer -->
+	
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.js"></script>
+	<script>window.jQuery || document.write('<script src="http://rideforthechild.co.uk/wp-content/themes/RFTC/assets/js/libs/jquery-1.11.2.min.js"><\/script>')</script>
+	
+	<!-- 
+	scripts should be concatenated and minified for performance. 
+	If using Grunt it does just that. 
+	You can use the <script> below in place of the other two if using Grunt.s
+	<script src="assets/js/script.min.js"></script>
+	-->
+	<script src="../../wp-content/themes/RFTC/scripts/script.js"></script>
+ 
+<script type='text/javascript' src='../../wp-includes/js/comment-reply.min-ver=4.7.11.js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/bj-lazy-load/js/bj-lazy-load.min-ver=2.js'></script>
+<script type='text/javascript' src='../../wp-includes/js/wp-embed.min-ver=4.7.11.js'></script>
+
+</body>
+</html>

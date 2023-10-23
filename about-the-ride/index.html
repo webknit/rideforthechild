@@ -1,0 +1,577 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en-US"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+
+<head>
+
+  	<meta charset="UTF-8" />
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="pingback" href="http://rideforthechild.co.uk/xmlrpc.php" />
+
+	<link rel="dns-prefetch" href="http://ajax.googleapis.com">
+	<link rel="dns-prefetch" href="http://use.typekit.net">
+	<link rel="dns-prefetch" href="http://google-analytics.com">
+	
+	<title>The Ride | Ride For The Child</title>
+	<meta name="description" content="Cycling from San Fran to New York, 3200 miles, 28 days, 1st September 2016. Raising money for children with deafness or cancer.">
+	<meta name="keywords" content="Ride for the child, RFTC, charity bike ride, fundraising, deaf children fundraising, cancer children fundraising">
+	<meta name="author" content="Webknit">
+	
+	<!-- Initialise advanced UI (Javascrip enabled) -->
+	<script>document.documentElement.className += ' advanced';</script>
+	
+	<!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- favicon and apple-touch-icon.png. More info @ mathiasbynens.be/notes/touch-icons -->
+	<!--<link rel="shortcut icon" href="PATH/TO/favicon.png" />-->
+	
+	<!-- Single CSS stylesheet with multiple break points - one for the CSS styles of each module where multiple screen sizes need to be addressed.  -->
+	<link rel="stylesheet" href="../wp-content/themes/RFTC/css/style.css" media="screen">
+	
+	<!--Internet Explorer up to version 8.0 can't read HTML5 tags properly, you can't style them.-->
+	<!--[if lt IE 9]>
+	   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-26260989-25', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	
+	<link rel='dns-prefetch' href='http://s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ride For The Child &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Ride For The Child &raquo; Comments Feed" href="../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Ride For The Child &raquo; The Ride Comments Feed" href="feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/rideforthechild.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.11"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php-rsd.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.11" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed-url=http_%7C%7Crideforthechild.co.uk%7Cabout-the-ride%7C.json" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed-url=http_%7C%7Crideforthechild.co.uk%7Cabout-the-ride%7C&format=xml.xml" />
+	
+</head>
+
+<body class="page-template page-template-page-the-ride-initial page-template-page-the-ride-initial-php page page-id-91">
+
+	<div class="flag-bar"></div>
+  
+	<header class="main-header row">
+	
+		<div class="container">
+
+					
+			<a href="../index.html"><img src="../wp-content/themes/RFTC/img/logo.svg" class="main-header__logo" /></a>
+			
+			
+						
+
+			<nav class="main-header__nav">
+			
+				<div class="menu-main_menu-container">
+
+					<ul class="main-header__nav-ul">
+
+						<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="index.html">
+								<span class="letter letter--red">A</span><span class="letter letter--blue">b</span><span class="letter letter--red">o</span><span class="letter letter--blue">u</span><span class="letter letter--red">t</span> <span class="letter letter--blue">R</span><span class="letter letter--red">F</span><span class="letter letter--blue">T</span><span class="letter letter--red">C</span>
+							</a></li></span>
+						<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="../the-story/index.html">
+							<span class="letter letter--blue">T</span><span class="letter letter--red">h</span><span class="letter letter--blue">e</span> <span class="letter letter--red">S</span><span class="letter letter--blue">t</span><span class="letter letter--red">o</span><span class="letter letter--blue">r</span><span class="letter letter--red">y</span>
+						</a></li>
+						<li id="menu-item-17" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17"><a href="../category/news/index.html">
+							<span class="letter letter--blue">N</span><span class="letter letter--red">e</span><span class="letter letter--blue">w</span><span class="letter letter--red">s</span>
+						</a></li>
+						<li id="menu-item-17" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17"><a href="../route/index.html">
+							<span class="letter letter--blue">R</span><span class="letter letter--red">o</span><span class="letter letter--blue">u</span><span class="letter letter--red">t</span><span class="letter letter--blue">e</span>
+						</a></li>
+						<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="../charities/index.html">
+							<span class="letter letter--blue">C</span></span><span class="letter letter--red">h</span><span class="letter letter--blue">a</span><span class="letter letter--red">r</span><span class="letter letter--blue">i</span><span class="letter letter--red">t</span><span class="letter letter--blue">i</span><span class="letter letter--red">e</span><span class="letter letter--blue">s</span>
+						</a></li>
+					
+					</ul>
+
+				</div>
+
+			</nav>
+			
+			<a href="http://uk.virginmoneygiving.com/fundraiser-web/fundraiser/showFundraiserPage.action?userUrl=rideforthechild&faId=614985&isTeam=false" target="_blank" class="main-header__donate btn btn--red">Donate</a>
+			
+			<button class="main-header__nav-btn">
+			
+				<span class="main-header__nav-btn-line main-header__nav-btn-line--one"></span>
+				<span class="main-header__nav-btn-line main-header__nav-btn-line--two"></span>
+				<span class="main-header__nav-btn-line main-header__nav-btn-line--three"></span>
+			
+			</button><!-- .main-header__nav-btn -->
+		
+		</div><!-- .container -->
+	
+	</header><!-- .main-header -->
+	
+	<div class="banner banner--characters">
+	
+		<div class="row container">
+	
+			<h2 class="banner__large-title">The Ride</h2>
+			<!-- <h3 class="banner__sub-title">date to go in</h3> -->
+		
+		</div><!-- .container -->
+	
+	</div><!-- .banner -->
+	
+	<section class="main-body main-body--page">
+	
+		<div class="container row">
+			
+			<div class="nine_twelve main-body__center">
+			
+				<h2 class="main-body__title">San Fran - New York</h2>
+				
+				<p class="main-body__date">1st Sept 2016 - 28th Sept 2016</p>
+			
+				
+					<p>If you&#8217;ve not read the story about the ride I <a href="index.html" target="_blank">suggest you read that first</a>. If you have then here&#8217;s some information about both myself and the planned ride in September 2016.</p>
+<p><strong>The ride</strong></p>
+<p>America is approximately 38 times the size of the UK, it&#8217;s also around twice as warm in September with temperatures averaging 68°F. Most people &#8211; including myself &#8211; imagined America as a highly populated, booming place. That&#8217;s definitely true in the main cities, however the middle of America can best be summed up in one word: desolate.</p>
+<p>It&#8217;s quite painful viewing the roads on Google Maps and I imagine they will be very lonely and unforgiving as I battle my way along them on my bike.</p>
+<p>San Francisco to New York is around 3200 miles and I&#8217;m going to be cycling it over a period of 28 days. Averaging 120 miles a day, I will cross 11 states and proceed through four timezones. I will be tailed for the duration of the ride by a support team who will be stationed in an RV vehicle.</p>
+<p>Although the ride itself is going to be tough, the support in the RV vehicle shouldn&#8217;t be underestimated. It&#8217;s essential that I&#8217;m never in need of food or water in such high temperatures. The washing, cooking, massaging (ha), organisation and of course the directions are all fundamental to the ride going smoothly.</p>
+<p>Cycling a distance which is almost 40% further than the Tour De France and travelling a higher average distance per day, it&#8217;s not a challenge for the faint-hearted. Add the incredibly hot temperates into the mix and it&#8217;s an incredibly difficult challenge for anyone.</p>
+<p>I will head through the Rocky Mountains, reaching elevations of over 9000ft and undoubtably experience fatigue because of high altitudes. I will be documenting information about the ride, my training and other bits and pieces in detail throughout the next year.</p>
+<p>I&#8217;m 100% focused on my goal of completing the ride and doing my absolute best to reach my fundraising target of £10k. I really hope you can help me achieve it!</p>
+<p>Thanks</p>
+<p>If you&#8217;ve any questions, suggestions, queries, ideas, donations or just want to have a chat, I can be contacted on contact@rideforthechild.co.uk.</p>
+<p>&nbsp;</p>
+<p><strong>Me</strong></p>
+<p>I&#8217;m 29 years old, 6ft 2, 77kg and a relatively fit and healthy individual. I used to ride for fun whilst I was at university &#8211; around 6 years ago &#8211; but I quit in order to concentrate on my studies. I&#8217;ve recently started training for the ride and I&#8217;ve a lot to do as I&#8217;m struggling at 20 miles, never mind 120 miles, for 28 days straight. You see a lot of elite athletic individuals undertaking huge challenges which &#8211; although difficult &#8211; can be achieved much easier than your average Joe&#8217;s like me! I realise I&#8217;m going to have to train incredibly hard to reach the desired fitness levels but I won&#8217;t lose focus of the children I&#8217;ll be helping as a result.</p>
+<p>&nbsp;</p>
+			
+
+				
+			</div><!-- eight_twelve -->
+		
+		</div><!-- .container -->
+	
+	</section><!-- .main-body -->
+
+	<section class="stats row">
+
+		<div class="stats__item">
+
+			<div class="stats__item-desc">
+
+				<h2 class="stats__title">Number of Days</h2>
+				<p class="stats__sub">28</p>
+				<p>Non-stop cycling for four weeks solid, no rest days.</p>
+
+			</div><!-- .stats__item-desc -->
+
+		</div><!-- .stats__item -->
+
+		<div class="stats__item stats__item--number">
+
+			<p class="stats__item-number counter"><span class="counter">28</span></p>
+
+		</div><!-- .stats__item -->
+
+	</section><!-- .stats -->
+
+	<section class="stats stats--switch row">
+
+		<div class="stats__item">
+
+			<div class="stats__item-desc">
+
+				<h2 class="stats__title">Number of Miles</h2>
+				<p class="stats__sub">3328</p>
+				<p>Averaging around 120 miles a day</p>
+
+			</div><!-- .stats__item-desc -->
+
+		</div><!-- .stats__item -->
+
+		<div class="stats__item stats__item--number stats__item--blue">
+
+			<p class="stats__item-number counter"><span class="counter">3328</span></p>
+
+		</div><!-- .stats__item -->
+
+	</section><!-- .stats -->
+
+	<section class="stats row">
+
+		<div class="stats__item">
+
+			<div class="stats__item-desc">
+
+				<h2 class="stats__title">Hours on the bike</h2>
+				<p class="stats__sub">224</p>
+				<p class="">I will be on the bike around 8 hours per day, for 28 days.</p>
+
+			</div><!-- .stats__item-desc -->
+
+		</div><!-- .stats__item -->
+
+		<div class="stats__item stats__item--number stats__item--blue">
+
+			<p class="stats__item-number counter"><span class="counter">224</span></p>
+
+		</div><!-- .stats__item -->
+
+	</section><!-- .stats -->
+
+	<section class="stats stats--switch row">
+
+		<div class="stats__item">
+
+			<div class="stats__item-desc">
+
+				<h2 class="stats__title">Calories burnt per day</h2>
+				<p class="stats__sub">4500</p>
+				<p class="">Around 17.5 big macs worth of calories on the bike each day</p>
+
+			</div><!-- .stats__item-desc -->
+
+		</div><!-- .stats__item -->
+
+		<div class="stats__item stats__item--number stats__item--blue">
+
+			<p class="stats__item-number counter"><span class="counter">4500</span></p>
+
+		</div><!-- .stats__item -->
+
+	</section><!-- .stats -->
+
+	<section class="stats row">
+
+		<div class="stats__item">
+
+			<div class="stats__item-desc">
+
+				<h2 class="stats__title">Highest elevation (ft)</h2>
+				<p class="stats__sub">9000</p>
+				<p class="">The altitude is going to be a killer up there</p>
+
+			</div><!-- .stats__item-desc -->
+
+		</div><!-- .stats__item -->
+
+		<div class="stats__item stats__item--number stats__item--blue">
+
+			<p class="stats__item-number counter"><span class="counter">9000</span></p>
+
+		</div><!-- .stats__item -->
+
+	</section><!-- .stats -->
+
+	
+<section class="more-info">
+
+	<div class="container row">
+
+		<a href="../sponsorship/index.html" class="more-info__a">
+
+			<div class="more-info__item more-info__item--first">
+
+				<img src="../wp-content/themes/RFTC/img/img-square-sponsor.jpg" class="more-info__img" />
+
+				<h2 class="more-info__head">Sponsorship</h2>
+
+			</div><!-- .more-info__item -->
+
+		</a><!-- .more-info__a -->
+
+		<a href="../charities/index.html" class="more-info__a">
+
+			<div class="more-info__item more-info__item--red-hover">
+
+				<img src="../wp-content/themes/RFTC/img/img-square-charity.jpg" class="more-info__img" />
+
+				<h2 class="more-info__head">Charities</h2>
+
+			</div><!-- .more-info__item -->
+
+		</a><!-- .more-info__a -->
+
+		<a href="../the-story/index.html" class="more-info__a">
+
+			<div class="more-info__item">
+
+				<img src="../wp-content/themes/RFTC/img/img-square-story.jpg" class="more-info__img" />
+
+				<h2 class="more-info__head">The story</h2>
+
+				<!-- <p class="more-info__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+
+			</div><!-- .more-info__item -->
+
+		</a><!-- .more-info__a -->
+
+		<a href="index.html" class="more-info__a">
+
+			<div class="more-info__item more-info__item--red-hover">
+
+				<img src="../wp-content/themes/RFTC/img/img-square-ride.jpg" class="more-info__img" />
+
+				<h2 class="more-info__head">The ride</h2>
+
+			</div><!-- .more-info__item -->
+
+		</a><!-- .more-info__a -->
+
+	</div><!-- .container -->
+
+</section><!-- .more-info -->
+
+	
+<div class="sponsors">
+
+	<div class="container row">
+
+		<!-- <h2 class="sponsors__title center-align">Sponsors</h2> -->
+
+		<ul class="sponsors__list">
+
+			<li class="sponsors__item">
+
+				<a href="http://azolt.com/">
+
+					<img src="../wp-content/themes/RFTC/img/azolt.svg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="http://homebuilderscarborough.co.uk/">
+
+					<img src="../wp-content/themes/RFTC/img/homebuilder.svg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="http://volero.com.au/">
+
+					<img src="../wp-content/themes/RFTC/img/volero.jpg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="http://www.onlinecyclecoaching.com/">
+
+					<img src="../wp-content/themes/RFTC/img/sponsor-transition.svg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="http://www.roadbearrv.com/">
+
+					<img src="../wp-content/themes/RFTC/img/sponsor-roadbear.jpg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+
+			<li class="sponsors__item">
+
+				<a href="https://paulbryceclothing.teemill.co.uk/">
+
+					<img src="../wp-content/themes/RFTC/img/sponsor-paul.jpg"/>
+
+				</a>
+
+			</li><!-- .sponsors__item -->
+		
+		</ul><!-- .sponsors__list -->
+
+	</div><!-- .row -->
+
+</div><!-- .announcement -->
+	
+<div class="announcement announcement--strava">
+
+	<div class="container row">
+
+		<a target="_blank" href="http://www.strava.com/athletes/2909982" class="announcement__link">Follow Shane Prendergast</a>
+
+		<img src="../wp-content/themes/RFTC/img/strava.svg" class="announcement__img" />
+
+	</div><!-- .row -->
+
+</div><!-- .announcement -->
+	<section class="help">
+	
+		<div class="container row">
+		
+			<div class="seven_twelve">
+			
+				<h2 class="help__header">Help me help them.</h2>
+				
+				<p class="help__p">I want to raise as much money and awareness as possible and I can't do that without your donations and help. Any amount - large or small - will contribute to helping children with deafness or cancer. Feel free to share, follow, tweet and please tell your friends and family about Ride For The Child. Whatever you can afford, it’s a small price to pay to improve these children’s lives.</p>
+				
+				<p></p><a href="http://uk.virginmoneygiving.com/fundraiser-web/fundraiser/showFundraiserPage.action?userUrl=rideforthechild&faId=614985&isTeam=false" target="_blank" class="btn btn--red">Donate</a></p>
+			
+			</div><!-- .seven_twelve -->
+			
+			<div class="five_twelve end-grid help__links">
+			
+				<ul class="help__ul">
+				
+					<li class="help__li"><a href="https://www.facebook.com/rideforthechild" target="_blank" class="help__a"><span class="fa fa-facebook"></span>Follow the journey on Facebook</a></li>
+					<li class="help__li"><a href="https://twitter.com/rideforthechild" target="_blank" class="help__a"><span class="fa fa-twitter"></span>Follow the journey on Twitter</a></li>
+					<li class="help__li"><a href="https://instagram.com/rideforthechild/" target="_blank" class="help__a"><span class="fa fa-instagram"></span>View the photos on Instragram</a></li>
+					<li class="help__li"><a href="https://www.youtube.com/channel/UCYb9XlAkPrv1vzG6xVLqniA" taget="_blank" class="help__a"><span class="fa fa-youtube"></span>View the videos</a></li>
+					<li class="help__li"><a href="../news/index.html" class="help__a"><span class="fa fa-pencil"></span>Read the blog</a></li>
+				
+				</ul>
+			
+			</div><!-- .four_twelve -->
+		
+		</div><!-- .container -->
+		
+		<div class="triangle">
+			
+			<span class="triangle__item"></span>
+			<span class="triangle__item triangle__item--white"></span>
+			<span class="triangle__item triangle__item--red"></span>
+			
+		</div><!-- .triangle -->
+	
+	</section><!-- .help -->
+	
+	<footer class="footer">
+	
+		<div class="container row">
+		
+			<div class="three_twelve">
+			
+				<h2 class="footer__header">Information</h2>
+
+				<p><a href="../faqs/index.html">FAQ's</a></p>
+
+				<p>If you’ve any questions, suggestions, queries, ideas, donations or just want to have a chat I can be contacted on the following email</p>
+				
+				<p><a>contact@rideforthechild.co.uk</a></p>
+			
+			</div><!-- .three_twelve -->
+			
+			<div class="three_twelve">
+			
+				<h2 class="footer__header">Recent posts</h2>
+
+				
+				
+					<p><a href="../news/final-words/index.html" title="Final words" class="footer__a">Final words</a></p>
+
+				
+					<p><a href="../news/day-28/index.html" title="Day 28 &#8211; The finish" class="footer__a">Day 28 &#8211; The finish</a></p>
+
+				
+					<p><a href="../news/day-27-nyc-tomo/index.html" title="Day 27 &#8211; NYC tomo" class="footer__a">Day 27 &#8211; NYC tomo</a></p>
+
+				
+					<p><a href="../news/day-26/index.html" title="Day 26" class="footer__a">Day 26</a></p>
+
+				
+					<p><a href="../news/day-24-25/index.html" title="Day 24 &#038; 25" class="footer__a">Day 24 &#038; 25</a></p>
+
+				
+							
+			</div><!-- .three_twelve -->
+			
+			<div class="three_twelve">
+			
+				<h2 class="footer__header">Social Links</h2>
+
+				<p><span class="fa fa-facebook"></span><a href="https://www.facebook.com/rideforthechild" target="_blank">Facebook</a></p>
+				
+				<p><span class="fa fa-twitter"></span><a href="https://twitter.com/rideforthechild" target="_blank">Twitter</a></p>
+
+				<p><span class="fa fa-instagram"></span><a href="https://instagram.com/rideforthechild/" target="_blank">Instagram</a></p>
+
+				<p><span class="fa fa-youtube"></span><a href="https://www.youtube.com/channel/UCYb9XlAkPrv1vzG6xVLqniA" target="_blank">You Tube</a></p>
+			
+			</div><!-- .three_twelve -->
+			
+			<div class="three_twelve end-grid">
+
+				<div class="rotate-logo">
+
+					<span class="rotate-logo__inner"></span>
+					<span class="rotate-logo__outer"></span>
+
+				</div><!-- .rotate-logo -->
+
+				<img src="../wp-content/themes/RFTC/img/clic.jpg" class="footer__charity-logo" />
+				<img src="../wp-content/themes/RFTC/img/AHL.jpg" class="footer__charity-logo" />
+			
+			</div><!-- .three_twelve -->
+		
+		</div><!-- .container -->
+	
+	</footer><!-- .footer -->
+	
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.js"></script>
+	<script>window.jQuery || document.write('<script src="http://rideforthechild.co.uk/wp-content/themes/RFTC/assets/js/libs/jquery-1.11.2.min.js"><\/script>')</script>
+	
+	<!-- 
+	scripts should be concatenated and minified for performance. 
+	If using Grunt it does just that. 
+	You can use the <script> below in place of the other two if using Grunt.s
+	<script src="assets/js/script.min.js"></script>
+	-->
+	<script src="../wp-content/themes/RFTC/scripts/script.js"></script>
+ 
+<script type='text/javascript' src='../wp-includes/js/comment-reply.min-ver=4.7.11.js'></script>
+<script type='text/javascript' src='../wp-content/plugins/bj-lazy-load/js/bj-lazy-load.min-ver=2.js'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min-ver=4.7.11.js'></script>
+
+</body>
+</html>
